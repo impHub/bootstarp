@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-size: 14px;
+    color:#333;
+}
+#about{
+    /* border: 2px solid palegreen; */
+}
+.navbar{
+    border: 0;
+}
+.banner-top .navigation{
+    background-color: #021523;
+}
+.navbar.navbar-default{
+    background: none;
+}
+.glyphicon{
+    color: #fff;
+    font-size: 30px;
+}
+h1{
+    display: inline-block;
+    color: #fff;
+}
+h4{
+    color: #fff;
+}
+.collapse .menu ul li a{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.collapse .menu ul li a:hover{
+    color:#f40;
+}
+.banner-top{
+    /* background:url('../images/banner.jpg') no-repeat 0px 0px; */
+    background-size: cover;
+    min-height: 700px;
+}
+.about .about-left-img{
+    background: url('../images/ab.jpg') no-repeat center;
+    height: 640px;
+    background-size: cover;
+}
+@media (max-width:1000px){
+    .about .about-left-img{
+        height: 550px;
+        width:550px;
+    }
+}
+#gallery{
+    padding-top: 20px;
+}
+#gallery .heading{
+    text-align: center;
+}
+#gallery .heading h3{
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 100px;
+}
+#gallery .inner .box{
+    position: relative;
+    padding: 0;
+}
+#gallery .inner .box img{
+    width: 100%;
+}
+#gallery .inner .box .textBox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(51, 204, 153, 0.83);
+    transform: scale(0);
+    transition: all 0.7s ease;
+    /* opacity: 0.4; */
+    text-align: center;
+    /* line-height: 100%; */
+}
+#gallery .inner .box:hover .textBox{
+    transform: scale(1);
+}
+#gallery .inner .box .textBox p span{
+    font-size: 30px;
+    color: #fff;
+    opacity: 1;
+    /* 差不多居中 */
+    margin-top: 30%;
+    background-color: #000;
+    width: 100%;
+    line-height: 40px;
+}
+#gallery ::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+/* contact */
+.footer{
+    padding-top: 100px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 400px;
+    background: url('../images/banner2.jpg') no-repeat;
+    background-size: cover;
+    /* background-position: 50% 50%; */
+}
+.cam{
+    /* margin-top: 15%; */
+    text-align: center;
+}
+.footer .social ul li a span{
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 30px;
+}
+.social{
+    margin: 20px;
+    text-align: center;
+}
+.footer .social ul li{
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+.copy-right p{
+    color: #fff;
+    text-align: center;
+}
+.footer .social ul li a{
+    border-radius: 40%;
+    display: block;
+    background-color: orange;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.social ul li a:hover{
+    opacity: 0.6;
+}
+#myCarousel{
+    min-width: 800px;
+    min-height: 500px;
+}
+#myCarousel .item.active{
+   
+}
